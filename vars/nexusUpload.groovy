@@ -1,4 +1,4 @@
-def call(repoName){
+def call(){
   def pom = readMavenPom file: 'pom.xml'
   def version = pom.version
   def artifactId = pom.artifactId
